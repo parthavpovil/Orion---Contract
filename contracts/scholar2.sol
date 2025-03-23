@@ -9,7 +9,7 @@ contract SimpleScholarDAO1 {
     uint256 public totalMembers = 1; // Track total members (starting with admin)
     
     // Staking configuration
-    uint256 public stakingAmount = 0.05 ether; // Fixed staking amount
+    uint256 public stakingAmount = 0.00005 ether; // Fixed staking amount
     mapping(uint256 => uint256) public paperStakes; // Track stake amounts by paper ID
     mapping(uint256 => bool) public stakeReturned; // Track if stake was already returned
     
